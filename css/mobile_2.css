@@ -1,0 +1,82 @@
+/* Font-Size */
+.lead {
+  font-size: 35px;
+}
+
+.small-lead {
+  font-size: 18px;
+}
+
+/* Navbar */
+#navbar {
+  height: 120px;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+#navbar a {
+  padding: 10px 10px;
+}
+
+/* Flex Row */
+.flex-row .row .column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.flex-row h2 {
+  font-size: 25px;
+}
+
+/* Flex Items*/
+.flex-items {
+  flex-direction: column;
+}
+
+.flex-items .border {
+  flex: 100%;
+  max-width: 100%;
+}
+
+/* Border */
+.border {
+  border: none;
+  border-bottom: 1px solid rgba(2, 132, 208, 0.5);
+  width: 100%;
+}
+
+.contact-info .border {
+  border: none;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+}
+
+.border:last-child {
+  border: none;
+}
+
+/* Flex-Grid */
+.flex-grid .column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.flex-grid .meta {
+  height: 550px;
+  margin: 16px 4px;
+  background: rgba(51, 51, 51, 0.3);
+}
+
+/* Contact */
+#contact h2 {
+  font-size: 25px;
+}
+
+/* Post */
+.post h2 {
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+.post p {
+  margin: 10px 0;
+}
